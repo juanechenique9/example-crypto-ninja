@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@angular/*": ["./node_modules/@angular/*"],
+      "lib-crypto-ninja/*": ["file:../../Library-Angular-v2.0/lib-crypto-ninja/src/*"]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
